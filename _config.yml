@@ -1,0 +1,20 @@
+title: зарабатывай играя в развличение 
+description: Онлайн казино, покер, и другие Онлайн игры. Расскажем о том как поднять денег в онлайн казинычах
+
+url: http://libertycasino.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Главная
+    url: /index.html
+
+social:
+  github: libertycasino
+  email: libertycasino@gmail.com
