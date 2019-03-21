@@ -15,7 +15,7 @@ navigation:
   - title: Главная
     url: /index.html
   - title: О блоге
-    url: /about.html
+    url: /about
 
 social:
   github: libertycasino
