@@ -1,3 +1,6 @@
+---
+layout: compress-js
+---
 // A $( document ).ready() block.
 $( document ).ready(function() {
 

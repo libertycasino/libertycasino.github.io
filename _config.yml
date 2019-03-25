@@ -1,14 +1,27 @@
 title: Зарабатывай развлекаясть 
 description: Онлайн казино, покер, и другие Онлайн игры. Расскажем о том как поднять денег в онлайн казинычах
 
-url: http://libertycasino.github.io
+url: http://systemscytometry.org
 baseurl: "/"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+gems:
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
+  - "jekyll-minifier"
+
+plugins: 
+  - jekyll-minifier
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+
 paginate: 5
 
 navigation:
